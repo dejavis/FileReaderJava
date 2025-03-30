@@ -18,6 +18,7 @@ class Leer_Fichero{
 			char letra = (char)c;
 			System.out.print(letra);
 			}
+			entrada.close();
 		}catch(IOException e){
 		System.out.println("Archivo no encontrado");
 		}
